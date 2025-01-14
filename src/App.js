@@ -7,16 +7,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <BrowserRouter basename="/emoji-app">
+    <BrowserRouter basename="emoji-app">
       <Routes>
-        <Route exact path="/emoji-app" element={<Layout />}>
+        <Route exact path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
           {/* <Route path="/:slug" element={<Detail />} /> */}
-          <Route
-            exact
-            path="/emoji-app/all-products"
-            element={<AllProducts />}
-          />
+          <Route exact path="/all-products" element={<AllProducts />} />
         </Route>
       </Routes>
     </BrowserRouter>
