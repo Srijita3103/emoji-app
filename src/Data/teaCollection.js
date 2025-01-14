@@ -105,7 +105,8 @@ export const emojiList = [
       "https://i.pinimg.com/236x/e8/d6/59/e8d65938af23944a8603312a7a1727c8.jpg",
     teaName: "Masala Tea",
     teaImageCover:
-      "https://t4.ftcdn.net/jpg/01/66/87/43/360_F_166874362_kZTGg8x1JgRsSCJgO0GWhrkgSWa4ZqRA.jpg",
+      // "https://t4.ftcdn.net/jpg/01/66/87/43/360_F_166874362_kZTGg8x1JgRsSCJgO0GWhrkgSWa4ZqRA.jpg",
+      imageProduct1,
     rating: 4.8,
     price: 10,
     // sizes: [
@@ -121,7 +122,8 @@ export const emojiList = [
       "https://i.pinimg.com/236x/e5/ac/4d/e5ac4d3a5ea52971e6d84794facab14f.jpg",
     teaName: "Lemongrass Tea",
     teaImageCover:
-      "https://cdn.shopify.com/s/files/1/0191/6439/7668/files/Lemongrass_Tea.jpg?v=1694537468",
+      // "https://cdn.shopify.com/s/files/1/0191/6439/7668/files/Lemongrass_Tea.jpg?v=1694537468"
+      imageProduct2,
     rating: 4.8,
     price: 10,
     // sizes: [
@@ -137,7 +139,8 @@ export const emojiList = [
       "https://i.pinimg.com/236x/a6/6c/3e/a66c3e5ec81792f07aeba723c7155bfd.jpg",
     teaName: "Orange Tea",
     teaImageCover:
-      "https://kaylalanielsen.com/wp-content/uploads/2024/02/image-5.png",
+      // "https://kaylalanielsen.com/wp-content/uploads/2024/02/image-5.png",
+      imageProduct3,
     rating: 4.8,
     price: 10,
     // sizes: [
@@ -153,7 +156,8 @@ export const emojiList = [
       "https://i.pinimg.com/736x/8a/76/ec/8a76ecad17e1c8040e451fa20b1ce65c.jpg",
     teaName: "Green Tea",
     teaImageCover:
-      "https://static.toiimg.com/thumb/msid-113912608,imgsize-67524,width-400,resizemode-4/113912608.jpg",
+      // "https://static.toiimg.com/thumb/msid-113912608,imgsize-67524,width-400,resizemode-4/113912608.jpg",
+      imageProduct4,
     rating: 4.8,
     price: 10,
     // sizes: [
@@ -169,7 +173,8 @@ export const emojiList = [
       "https://i.pinimg.com/736x/92/b6/6c/92b66c62e2727a9de9502ecebded5ff0.jpg",
     teaName: "Chamomile Tea",
     teaImageCover:
-      "https://www.sleepfoundation.org/wp-content/uploads/2024/06/Does-Chamomile-Tea-Make-You-Sleepy-Featured-Image.jpg",
+      // "https://www.sleepfoundation.org/wp-content/uploads/2024/06/Does-Chamomile-Tea-Make-You-Sleepy-Featured-Image.jpg",
+      imageProduct5,
     rating: 4.8,
     price: 10,
     // sizes: [
@@ -185,7 +190,8 @@ export const emojiList = [
       "https://i.pinimg.com/736x/fa/a7/fd/faa7fd061c2723960f67a4ba935f08e7.jpg",
     teaName: "Peppermint Tea",
     teaImageCover:
-      "https://tucsontea.com/cdn/shop/files/SP-peppermint-leaf-tea-tucson-tea-company.jpg?v=1713297527",
+      // "https://tucsontea.com/cdn/shop/files/SP-peppermint-leaf-tea-tucson-tea-company.jpg?v=1713297527",
+      imageProduct6,
     rating: 4.8,
     price: 10,
     // sizes: [
@@ -201,7 +207,8 @@ export const emojiList = [
       "https://i.pinimg.com/236x/ff/b0/8a/ffb08a4e981f8b18857b35dee11dea9d.jpg",
     teaName: "Black Tea",
     teaImageCover:
-      "https://goodricketea.com/cdn/shop/articles/IMAGE-2.png?v=1686659498",
+      // "https://goodricketea.com/cdn/shop/articles/IMAGE-2.png?v=1686659498",
+      imageProduct7,
     rating: 4.8,
     price: 10,
     // sizes: [
@@ -217,7 +224,8 @@ export const emojiList = [
       "https://i.pinimg.com/736x/c7/02/5c/c7025ceb4a07a453b0bfa0583cb305a7.jpg",
     teaName: "Ginger Tea",
     teaImageCover:
-      "https://cdn.shopify.com/s/files/1/0012/1657/7656/files/how-to-make-ginger-tea_f6c1ec4a-d666-498f-9c90-979a256c6251.jpg?v=1724961501",
+      // "https://cdn.shopify.com/s/files/1/0012/1657/7656/files/how-to-make-ginger-tea_f6c1ec4a-d666-498f-9c90-979a256c6251.jpg?v=1724961501",
+      imageProduct8,
     rating: 4.6,
     price: 10,
     // sizes: [
@@ -234,7 +242,8 @@ export const emojiList = [
       "https://i.pinimg.com/474x/65/40/2c/65402c5512611fc70cf66bcb949fa04c.jpg",
     teaName: "Lavender Tea",
     teaImageCover:
-      "https://fullscript.com/wp-content/uploads/2022/10/lavender-tea-benefits.jpg",
+      // "https://fullscript.com/wp-content/uploads/2022/10/lavender-tea-benefits.jpg",
+      imageProduct9,
     rating: 4.6,
     price: 10,
     // sizes: [
