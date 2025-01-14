@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <BrowserRouter basename="emoji-app">
+    <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
