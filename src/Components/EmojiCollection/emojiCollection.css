@@ -1,0 +1,156 @@
+.mood-wrapper {
+  /* background-color: black;  */
+  /* height: 400px; */
+  padding: 15px 0px 40px;
+  margin-top: 60px;
+}
+
+.emoji {
+  padding: 15px 0px 40px;
+}
+
+.custom-slider .slick-slide {
+  opacity: 0.5;
+  transform: scale(0.5);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.custom-slider .slick-center {
+  opacity: 1;
+  transform: scale(1); /* Center item is larger */
+}
+@media (max-width: 768px) {
+  .custom-slider .slick-slide {
+    transform: scale(0.7);
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.emoji-collection-cover {
+  height: 320px;
+  width: 320px;
+  margin-right: 20px;
+  border-radius: 50%;
+  position: relative;
+}
+.emoji-image {
+  /* height: 100%; */
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.emoji-title {
+  margin-top: 10px;
+}
+.customize-button {
+  position: "absolute";
+  bottom: "-50px";
+  left: "50%";
+  transform: "translateX(-50%)";
+  padding: "10px 20px";
+  background-color: "#ff7e5f";
+  color: "white";
+  border: "none";
+  border-radius: "5px";
+  cursor: "pointer";
+}
+.tea-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.tea-info {
+  width: 400px;
+  height: 600px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.tea-image {
+  height: 200px;
+  width: 400px;
+  object-fit: cover;
+}
+.tea-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0px 6px;
+  font-weight: 600;
+}
+.tea-name {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 18px;
+  font-weight: 600;
+}
+.tea-rating {
+  max-width: 30px;
+  padding: 0px 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: black;
+  background-color: aqua;
+  border-radius: 6px;
+  height: 24px;
+}
+.tea-rating i {
+  font-size: 10px;
+  margin-left: 2px;
+}
+.box-container {
+  border: 1px solid #ccc;
+  padding: 10px 55px 10px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  font-size: 16px;
+}
+.box-container::click {
+  background-color: #ff5733;
+}
+.price-details-container {
+  margin-top: 10px;
+}
+.price-details {
+  font-size: 16px;
+  display: flex;
+  align-items: flex-start;
+  font-weight: 500;
+}
+.add-to-cart-button {
+  margin-top: 10px;
+  background-color: #ff5733;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.choose-click {
+  margin-top: 15px;
+}
+.choose-anchor-tag {
+  padding: 5px;
+  color: blue;
+}
+.close-button {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color: rgb(223, 32, 32);
+  font-size: 16px;
+  margin-bottom: 20px;
+}
