@@ -9,7 +9,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/emoji-app" element={<Layout />}>
           <Route index element={<HomePage />} />
           {/* <Route path="/:slug" element={<Detail />} /> */}
           <Route path="/all-products" element={<AllProducts />} />
