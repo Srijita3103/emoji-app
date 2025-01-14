@@ -12,7 +12,7 @@ const App = () => {
         <Route exact path="/emoji-app" element={<Layout />}>
           <Route index element={<HomePage />} />
           {/* <Route path="/:slug" element={<Detail />} /> */}
-          <Route path="/all-products" element={<AllProducts />} />
+          <Route path="/emoji-app/all-products" element={<AllProducts />} />
         </Route>
       </Routes>
     </BrowserRouter>
