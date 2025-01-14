@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="emoji-app">
       <Routes>
         <Route path="/emoji-app" element={<Layout />}>
           <Route index element={<HomePage />} />
@@ -17,7 +17,6 @@ const App = () => {
       </Routes>
     </BrowserRouter>
   );
-  // <HomePage />;
 };
 
 export default App;
