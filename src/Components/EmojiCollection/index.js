@@ -51,9 +51,9 @@ const EmojiCollection = ({ list }) => {
     setShowPopup(true); // Show the popup
   };
 
-  const handleSizeClick = (size) => {
-    setSelectedSize(size); // Update selected size
-  };
+  // const handleSizeClick = (size) => {
+  //   setSelectedSize(size); // Update selected size
+  // };
 
   const handleClosePopup = () => {
     setSelectedItem(null); // Clear the selected item
@@ -194,7 +194,7 @@ const EmojiCollection = ({ list }) => {
             <div className="choose-click">
               Didn't like it?
               <a
-                href=""
+                href="all-products"
                 className="choose-anchor-tag"
                 onClick={handleChooseOwnFlavor}
               >
