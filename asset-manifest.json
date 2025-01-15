@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/emoji-app/static/css/main.213a18f6.css",
-    "main.js": "/emoji-app/static/js/main.1eb36d54.js",
-    "static/media/image6.png": "/emoji-app/static/media/image6.21c790e3e26dc2125361.png",
-    "static/media/image8.png": "/emoji-app/static/media/image8.6d97687e3c2f2d641efd.png",
-    "static/media/image5.png": "/emoji-app/static/media/image5.508232ed01a2077767dd.png",
-    "static/media/image3.png": "/emoji-app/static/media/image3.cdbc2d71242a23b7bced.png",
-    "static/media/image9.png": "/emoji-app/static/media/image9.7beea6ffcae0ae0589f2.png",
-    "static/media/image2.png": "/emoji-app/static/media/image2.50cce9e20573f34e1c9b.png",
-    "static/media/image7.png": "/emoji-app/static/media/image7.ec0d26ca592169582744.png",
-    "static/media/image1.png": "/emoji-app/static/media/image1.8c96ff27064f40918402.png",
-    "static/media/image4.png": "/emoji-app/static/media/image4.460e6375c885b67b680f.png",
-    "index.html": "/emoji-app/index.html",
-    "main.213a18f6.css.map": "/emoji-app/static/css/main.213a18f6.css.map",
-    "main.1eb36d54.js.map": "/emoji-app/static/js/main.1eb36d54.js.map"
+    "main.css": "/static/css/main.4fa249c7.css",
+    "main.js": "/static/js/main.4a737c44.js",
+    "static/media/image6.png": "/static/media/image6.21c790e3e26dc2125361.png",
+    "static/media/image8.png": "/static/media/image8.6d97687e3c2f2d641efd.png",
+    "static/media/image5.png": "/static/media/image5.508232ed01a2077767dd.png",
+    "static/media/image3.png": "/static/media/image3.cdbc2d71242a23b7bced.png",
+    "static/media/image9.png": "/static/media/image9.7beea6ffcae0ae0589f2.png",
+    "static/media/image2.png": "/static/media/image2.50cce9e20573f34e1c9b.png",
+    "static/media/image7.png": "/static/media/image7.ec0d26ca592169582744.png",
+    "static/media/image1.png": "/static/media/image1.8c96ff27064f40918402.png",
+    "static/media/image4.png": "/static/media/image4.460e6375c885b67b680f.png",
+    "index.html": "/index.html",
+    "main.4fa249c7.css.map": "/static/css/main.4fa249c7.css.map",
+    "main.4a737c44.js.map": "/static/js/main.4a737c44.js.map"
   },
   "entrypoints": [
-    "static/css/main.213a18f6.css",
-    "static/js/main.1eb36d54.js"
+    "static/css/main.4fa249c7.css",
+    "static/js/main.4a737c44.js"
   ]
 }
