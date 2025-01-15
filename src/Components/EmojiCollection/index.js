@@ -39,8 +39,8 @@ const EmojiCollection = ({ list }) => {
   console.log(carts);
   const [selectedItem, setSelectedItem] = useState(null); // State to track the selected item
   const [showPopup, setShowPopup] = useState(false); // State to toggle popup visibility
-  const [selectedSize, setSelectedSize] = useState(null); // State to track selected size
-  const [detail, setDetail] = useState([]);
+  // const [selectedSize, setSelectedSize] = useState(null); // State to track selected size
+  // const [detail, setDetail] = useState([]);
   const [quantity, setQuantity] = useState(1);
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -58,7 +58,7 @@ const EmojiCollection = ({ list }) => {
   const handleClosePopup = () => {
     setSelectedItem(null); // Clear the selected item
     setShowPopup(false); // Hide the popup
-    setSelectedSize(null);
+    // setSelectedSize(null);
   };
 
   // const handleAddToCart = () => {
@@ -185,13 +185,13 @@ const EmojiCollection = ({ list }) => {
               </div>
             )} */}
             <button
-              className="add-to-cart-button cur-po"
+              className="add-to-cart-button cur-po mx-4"
               data-id="${selectedItem.id}"
               onClick={handleAddToCart}
             >
               Add to cart
             </button>
-            <div className="choose-click">
+            {/* <div className="choose-click">
               Didn't like it?
               <a
                 href="all-products"
@@ -200,7 +200,7 @@ const EmojiCollection = ({ list }) => {
               >
                 Choose your own flavor
               </a>
-            </div>
+            </div> */}
             <button className="close-button cur-po" onClick={handleClosePopup}>
               Close
             </button>

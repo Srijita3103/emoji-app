@@ -1,5 +1,5 @@
 import React from "react";
-import EmojiCollection from "../../Components/EmojiCollection";
+import EmojiCollection from "../../Components/EmojiCollection/index";
 import { emojiList } from "../../Data/teaCollection";
 
 const HomePage = ({ list }) => {
